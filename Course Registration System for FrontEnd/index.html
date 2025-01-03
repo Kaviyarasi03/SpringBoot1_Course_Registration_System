@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration System</title>
+    <style>
+        /* General body styles */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('index.jpg'); /* Add your background image path */
+            background-size: cover; /* Make the image cover the entire screen */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent repeating */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            color: white;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Add text shadow for readability */
+        }
+
+        /* Main container styles */
+        .container {
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 80%;
+            max-width: 500px;
+        }
+
+        /* Heading styles */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        /* Button styles */
+        .button {
+            display: inline-block;
+            background-color: #575a5b;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        /* Hover effects for buttons */
+        .button:hover {
+            background-color: rgb(60, 60, 58);
+            transform: scale(1.05); /* Slightly enlarge button on hover */
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .button {
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Course Registration System</h1>
+        <a href="Register.html" class="button">Register Course</a>
+        <a href="AvailableCourse.html" class="button">Available Courses</a>
+        <a href="EntrolledCourse.html" class="button">Enrolled Courses</a>
+    </div>
+</body>
+</html>
