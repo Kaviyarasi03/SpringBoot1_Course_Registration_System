@@ -57,7 +57,7 @@ Run the Frontend Application:
 
 npm start
 How to Use
-Visit the application in your web browser at http://localhost:5500.
+Visit the application in your web browser at http://127.0.0.1:5500/index.html
 Register for a Course:
 Navigate to the course registration page.
 Fill in the required details and submit the form.
